@@ -1,0 +1,204 @@
+#product-details{
+    background-image:none;
+    height: 70px;
+
+}
+@media only screen and (max-width: 1000px) {
+    header{
+        height: 600px !important;
+    }
+    section{
+        margin-top: 0px !important;
+
+    }
+  }
+@media only screen and (max-width: 1000px) {
+    #product-details{
+        height: 70px !important;
+    }
+    
+  }
+  @media only screen and (max-width: 700px) {
+    #product-details{
+        height: 70px !important;
+    }
+  }
+  hr{
+    height: auto;
+  }
+  @media only screen and (max-width: 920px) {
+    section{
+    //   display: none !important;
+    flex-direction: column-reverse !important;
+    }
+  
+    hr{
+    display: none !important;
+    }
+    .salam{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        width: 483px !important;
+        max-height: 483px !important;
+
+    }
+    
+    }
+  section{
+    display: flex;
+    justify-content: center;
+    padding: 70px 40px;
+    .filter{
+        justify-content:space-between;
+        flex-direction: column;
+        height: 400px;
+        // background-color: red;
+        padding: 0px 30px 0px 30px;
+        display: flex;
+        .inp{
+            display: flex;
+            gap: 20px;
+            input{
+                width: 230px;
+                height: 40px;
+            }
+            button{
+                background-color: greenyellow;
+                width: 40px;
+            }
+        }
+        .range-slider {
+            height: 5px;
+            position: relative;
+            background-color: #e1e9f6;
+            border-radius: 2px;
+            
+
+          }
+          .range-selected {
+            height: 100%;
+            left: 30%;
+            right: 30%;
+            position: absolute;
+            border-radius: 5px;
+            background-color: black;
+          }
+          
+          .range-input {
+            position: relative;
+          }
+          .range-input input {
+            position: absolute;
+            width: 100%;
+            height: 5px;
+            top: -7px;
+            background: none;
+            pointer-events: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+          }
+          .range-input input::-webkit-slider-thumb {
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            border: 3px solid green;
+            background-color:green;
+            pointer-events: auto;
+            -webkit-appearance: none;
+          }
+          .range-input input::-moz-range-thumb {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            border: 3px solid green;
+            pointer-events: auto;
+            -moz-appearance: none;
+          }
+          
+          .range-price {
+              margin: 30px 0;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .range-price label {
+              margin-right: 5px;
+            }
+            .range-price input {
+              width: 40px;
+              padding: 5px;
+            }
+            .range-price input:first-of-type {
+              margin-right: 15px;
+            }
+            .cato{
+                gap: 10px;
+                font-size: 22px;
+                display: flex;
+                flex-direction: column;
+                height: 100px;
+                color: green;
+
+                .posts{
+                    padding-left: 10px;
+                    gap: 5px;
+                    display: flex;
+                flex-direction: column;
+                }
+            }
+    }
+    .post{
+        // background-color: greenyellow;
+        // min-width: 580px;
+        max-width: 800px;
+        margin-left: 30px;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        
+        .homeShop{
+            gap: 10px;
+            font-size: 30px;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .Show{
+            padding-top: 30px;
+            font-size: 20px;
+
+            align-items: flex-start;
+            display: flex;
+            justify-content: space-between;
+            div{
+            display: flex;
+            // flex-direction: column;
+            gap: 60px;
+            }
+        }
+        
+        .salam{
+            display: flex;
+            // background-color: red;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 30px 0px 30px 0  !important;
+            gap: 20px;
+            min-height: 553px;
+            align-items: center;
+
+
+         
+            div{
+                img{
+                    width: 253px;
+                    min-height: 253px;
+
+                }
+            }
+        }
+    }
+  }

@@ -1,0 +1,15 @@
+@import "./base/reset";
+
+// ! Pages
+@import "./pages/home";
+@import "./pages/shop";
+
+// ? Layouts
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/center";
+@import "./layout/product-details";
+
+
+
+@import "./layout/navbarAnime";

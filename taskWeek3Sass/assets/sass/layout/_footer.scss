@@ -1,0 +1,29 @@
+@media only screen and (max-width: 920px) {
+    footer{
+        gap: 30px;
+        flex-direction: column !important;
+    }
+}
+@media only screen and (max-width: 540px) {
+    footer{
+        gap: 30px;
+        flex-direction: column !important;
+        ul{
+            flex-direction: column;
+        }
+        
+    }
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 90px;
+    ul{
+        display: flex;
+        gap: 10px;
+    }
+}
